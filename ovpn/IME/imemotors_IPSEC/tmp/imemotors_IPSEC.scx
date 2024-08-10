@@ -1,0 +1,51 @@
+{
+   "vip" : "0.0.0.0",
+   "proposals" : [
+      "aes256-sha2_256-modp2048"
+   ],
+   "history" : {
+      "connect_time" : 0,
+      "connect_result" : 0
+   },
+   "domain_suffix" : " ",
+   "remote_auth" : {
+      "otp" : false,
+      "psk" : {
+         "secret" : "ipsec@imemotors",
+         "id" : "0.0.0.0"
+      }
+   },
+   "auto_connect" : {
+      "required" : false,
+      "enabled" : false
+   },
+   "local_auth" : {
+      "psk" : {
+         "id" : "0.0.0.0"
+      },
+      "otp" : false,
+      "xauth" : {
+         "can_save" : false
+      }
+   },
+   "version" : 1,
+   "managed" : false,
+   "display_name" : "imemotors_IPSEC",
+   "run_logon_script" : false,
+   "rekey_time" : 15300,
+   "start_action" : "none",
+   "name" : "imemotors_IPSEC",
+   "child" : {
+      "proposals" : [
+         "aes256-sha2_256-modp2048"
+      ],
+      "remote_ts" : [
+         "192.168.0.0/16"
+      ],
+      "rekey_time" : 3060
+   },
+   "type" : "xg",
+   "favicon" : "",
+   "dpd_delay" : "60 ",
+   "gateway" : "110.34.3.177"
+}
