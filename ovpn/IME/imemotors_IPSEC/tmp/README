@@ -1,0 +1,15 @@
+The archive file contains IPsec remote access configuration files in .scx and .tgb formats.
+
+	    .scx: Contains the advanced settings of Sophos Connect client in addition
+	    to the other settings in the configuration. We recommend that
+	    you use this format.
+
+	    The advanced settings provide extra protection, such as running
+	    AD logon scripts after the tunnel is established and offering
+	    multi-factor authentication. They also allow you to split the
+	    tunnel and connect the tunnel automatically.
+
+	    These settings are available if your administrator has configured them. 
+
+	    .tgb: Use this for other IPsec remote access clients. If you use this
+	    format for Sophos  Connect clients, you won’t get the advanced settings.
